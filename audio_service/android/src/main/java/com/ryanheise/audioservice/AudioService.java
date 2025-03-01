@@ -341,8 +341,8 @@ public class AudioService extends MediaBrowserServiceCompat {
             }
         };
 
-        flutterEngine = AudioServicePlugin.getFlutterEngine(this);
-        System.out.println("flutterEngine warmed up");
+        // flutterEngine = AudioServicePlugin.getFlutterEngine(this);
+        // System.out.println("flutterEngine warmed up");
     }
 
     @Override
